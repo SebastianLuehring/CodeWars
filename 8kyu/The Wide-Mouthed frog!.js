@@ -33,4 +33,4 @@ function mouthSize(animal) {
   //This code is simply seeing if the animal being confronted is an alligator or not. That's as simple as it needs to be. This code is saying IF the animal IS an alligator, return "small" (referring to the wide mouthed frog. Because the alligator likes to eat wide mouthed frogs in particular. Else, if the animal is not an alligator, return the word "wide". Very simple!
   
   
-  
+
