@@ -6,3 +6,5 @@
 
 
 // Solution:
+
+let greet = () => "hello world!";
