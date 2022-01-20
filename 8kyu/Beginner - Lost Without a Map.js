@@ -7,3 +7,16 @@
 
 // Solution:
 
+function maps(x){
+    let product = x.map(x => x * 2);
+     return product
+   
+ }
+ 
+ 
+ 
+ function maps(x){
+   return x.map(n => n * 2);
+ }
+
+ 
