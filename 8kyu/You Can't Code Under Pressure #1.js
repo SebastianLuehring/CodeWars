@@ -7,3 +7,8 @@
 // Solution:
 
 
+function doubleInteger(i) {
+    return i * 2;
+  }
+
+  
