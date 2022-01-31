@@ -46,3 +46,4 @@ function finalGrade (exam, projects) {
   }
 
   
+  
