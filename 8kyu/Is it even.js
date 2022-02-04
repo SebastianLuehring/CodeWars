@@ -19,7 +19,8 @@ function testEven(n) {
 
 
 function testEven(n) {
-    return n%2===0;
+    return n % 2 === 0;
 }
+
 
 
