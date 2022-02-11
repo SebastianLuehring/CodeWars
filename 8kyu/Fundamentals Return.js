@@ -14,5 +14,36 @@
 
 // Solution:
 
+function add(a,b){
+    let add = a + b
+      return add
+  }
+  
+  function divide(a,b){
+    let divide = a / b
+      return divide
+  }
+  
+  function multiply(a,b){
+    let multiply = a * b
+      return multiply
+  }
+  
+  function mod(a,b){
+    let mod = a % b 
+      return mod
+  }
+     
+  function exponent(a,b){
+    let exponent = a ** b
+      return exponent
+  }
+      
+  function subt(a,b){
+    let subt = a - b
+      return subt
+  }
 
+
+  
 
