@@ -10,3 +10,14 @@
 
 // Solution:
 
+function move (position, roll) {
+    return position + roll + roll
+  }
+  
+  function move (position, roll) {
+    return position + roll * 2
+  }
+  
+
+  
+  
