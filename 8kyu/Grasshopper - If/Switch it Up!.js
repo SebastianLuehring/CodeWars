@@ -62,3 +62,5 @@ function switchItUp(number){
           return 'Unknown number';
       }
     }
+
+    
