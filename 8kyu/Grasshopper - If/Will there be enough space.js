@@ -17,3 +17,10 @@
 // Solution:
 
 
+function enough(cap, on, wait) {
+    return Math.max(on + wait - cap, 0);
+  }
+
+  
+
+  
