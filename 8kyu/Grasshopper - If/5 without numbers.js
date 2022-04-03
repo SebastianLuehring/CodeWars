@@ -9,3 +9,9 @@
 // Solution:
 
 
+function unusualFive() {
+    let word = 'hello'
+    return word.length
+  }
+
+  
