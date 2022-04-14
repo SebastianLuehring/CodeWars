@@ -9,3 +9,21 @@
 // Solution:
 
 
+function checkTheBucket(bucket){
+    if(bucket.includes('gold')){
+      return true
+    }else {
+      return false
+    }
+  }
+  
+  
+  function checkTheBucket(bucket){
+    return bucket.includes('gold');
+  }
+  
+  
+  
+  let checkTheBucket = arr => arr.includes('gold')
+
+  
