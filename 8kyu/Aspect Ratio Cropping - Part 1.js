@@ -9,3 +9,9 @@
 // Solution:
 
 
+function aspectRatio(x,y){
+    let aspect = [Math.ceil(y * (16/9)),y]
+    return aspect
+  }
+
+  
