@@ -17,3 +17,38 @@
 // Solution:
 
 
+function getDrinkByProfession(param){
+    if(param.toLowerCase() === "Jabroni".toLowerCase()){
+      return     "Patron Tequila"
+    }else if(param.toLowerCase() ===     "School Counselor".toLowerCase() ){
+      return     "Anything with Alcohol"
+    }else if(param.toLowerCase() === "Programmer".toLowerCase()){
+      return     "Hipster Craft Beer"
+    }else if(param.toLowerCase() === "Bike Gang Member".toLowerCase()){
+      return "Moonshine"
+    }else if(param.toLowerCase() === "Politician".toLowerCase()){
+      return "Your tax dollars"
+    }else if(param.toLowerCase() === "Rapper".toLowerCase()){
+      return "Cristal"
+    }else {
+      return "Beer"
+  }
+  }
+  
+  
+  
+  function getDrinkByProfession(param) {
+    param = param.toLowerCase();
+    
+    switch(param) {
+      case "jabroni": return "Patron Tequila";
+      case "school counselor": return "Anything with Alcohol";
+      case "programmer": return "Hipster Craft Beer";
+      case "bike gang member": return "Moonshine";
+      case "politician": return "Your tax dollars";
+      case "rapper": return "Cristal";
+      default: return "Beer";
+    }
+  }
+
+  
