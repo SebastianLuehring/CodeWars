@@ -8,3 +8,12 @@
 // Solution:
 
 
+function getSize(width, height, depth){
+  
+    let area = 2*(depth*width + depth*height + width*height)
+    let volume = width * height * depth
+    return [area, volume]
+    
+  }
+
+  
