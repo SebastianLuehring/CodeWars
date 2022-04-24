@@ -17,3 +17,17 @@
 // Solution:
 
 
+function pointsPer48(ppg, mpg) {
+    if(ppg === 0 && mpg === 0){
+      return 0
+    }else{ 
+      return Math.round(10*((ppg / mpg) * 48))/10
+    }
+  }
+  
+  
+  function pointsPer48(ppg, mpg) {
+    return +(ppg/mpg*48).toFixed(1)||0
+  }
+
+  
