@@ -17,3 +17,18 @@
 // Solution:
 
 
+function sumStr(a,b) {
+    let number = Number(a) + Number(b)
+    if(a === NaN || b === NaN){
+      return 0
+    }else{
+      return number.toString()
+    }
+  }
+  
+  
+  function sumStr(a,b) {
+    return String(Number(a)+Number(b));
+  }
+
+  
