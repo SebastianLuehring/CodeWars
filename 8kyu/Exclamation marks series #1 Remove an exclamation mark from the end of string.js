@@ -16,3 +16,22 @@
 
 // Solution:
 
+function remove (string) {
+    if(string.charAt(string.length - 1) === "!"){
+      return string.slice(0, -1)
+    }else{
+      return string
+    }
+    return '';
+  }
+  
+  
+  const remove = s => s.replace(/!$/, '');
+  
+  
+  function remove(s) {
+    return s.endsWith('!') ? s.slice(0, -1) : s;
+  }
+
+
+  
