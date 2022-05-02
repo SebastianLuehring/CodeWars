@@ -12,3 +12,52 @@
 
 // Solution:
 
+function  calculateAge(a,b) {
+    let age = b - a
+    let future = a - b
+    if(a === b){
+      return "You were born this very year!"
+    }else if(a - 1 === b){
+      return `You will be born in 1 year.`
+      }else if(a > b){
+      return `You will be born in ${future} years.`
+    }else if(a === b -1){
+      return `You are 1 year old.`
+    }else{
+      return `You are ${age} years old.`
+    }
+  }
+  
+  
+  
+  function  calculateAge(birthYear,year) {
+     age = year-birthYear;
+     if(age==1)
+       return "You are 1 year old.";
+     else if(age===-1)
+       return "You will be born in 1 year."
+     else if(age>0)
+       return "You are " + age + " years old.";
+     else if(age<0) {
+       age = birthYear-year;
+       return  "You will be born in " + age + " years."
+     }
+     else {
+       return "You were born this very year!";
+     }
+  }
+  
+  
+  
+  var calculateAge = (old, news) => {
+    if ( old === news ) {
+      return "You were born this very year!" 
+    }else if ( news > old ) {
+      return news - old === 1 ? "You are 1 year old." : `You are ${news - old} years old.`
+    }else{
+      return old - news === 1 ? "You will be born in 1 year." : `You will be born in ${old - news} years.`
+    } 
+  }
+
+  
+  
