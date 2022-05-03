@@ -13,3 +13,35 @@
 // Solution:
 
 
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      let min = Number.POSITIVE_INFINITY
+  for (const value of args) {
+    min = Math.min(min, value)
+  }
+  return min
+    }
+  }
+  
+  
+  
+  class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return Math.min(...args)
+    }
+  }
+  
+  
+  
+  class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      args.sort(function(a, b) {
+      return a - b; } )
+      return args[0];
+    }
+  }
+  
+  
+
+  
+  
