@@ -15,3 +15,34 @@
 // Solution:
 
 
+var summation = function (num) {
+    function sumTo(num) {
+    return num * (num + 1) / 2;
+  }
+  
+  return( sumTo(num) );
+  }
+  
+  
+  
+  var summation = function (num) {
+    let result = 0;
+    for (var i = 1; i <= num; i++) {
+      result += i;
+    }
+    
+    return result;
+  }
+  
+  
+  
+  const summation = n => n * (n + 1) / 2;
+  
+  
+  
+  
+  var summation = function f(num) {
+    return num ? num + f(num-1) : 0;
+  }
+  
+  
