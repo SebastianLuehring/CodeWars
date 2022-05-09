@@ -15,3 +15,32 @@
 
 // Solution:
 
+function findNeedle(haystack) {
+    let found = "needle"
+    if(haystack.includes("needle")){
+      return "found the needle at position " + haystack.indexOf(found)
+    }
+  }
+  
+  
+  
+  
+  function findNeedle(haystack) {
+    return "found the needle at position " + haystack.indexOf("needle");
+  }
+  
+  
+  
+  
+  function findNeedle(haystack) {
+    var i = 0;
+    while (i < haystack.length) {
+      if (haystack[i] == 'needle') {
+        return 'found the needle at position ' + i;
+      }
+      i++;  
+    }
+  }
+
+  
+  
