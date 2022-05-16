@@ -13,3 +13,13 @@
 // Solution:
 
 
+function betterThanAverage(classPoints, yourPoints) {
+    if(classPoints.reduce((a,b) => a + b,0) / classPoints.length < yourPoints){
+      return true
+    }else{
+      return false
+    }
+  }
+  
+  
+  
