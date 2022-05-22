@@ -10,3 +10,13 @@
 // Solution:
 
 
+function removeExclamationMarks(s) {
+    return s.replace(/[^a-zA-Z ]/g, "");
+  }
+  
+  
+  function removeExclamationMarks(s) {
+    return s.replace(/!/gi, '');
+  }
+
+  
