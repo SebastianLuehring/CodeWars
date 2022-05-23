@@ -15,3 +15,20 @@
 // Solution:
 
 
+
+function doubleChar(str) {
+    var newStr = '';
+    for (var i = 0; i < str.length; i++){
+      newStr += str[i] + str[i];
+    }
+    return newStr;
+  };
+  
+  
+  const doubleChar = (str) => str.split("").map(c => c + c).join("");
+  
+  
+  
+  function doubleChar(str) {
+    return str.replace(/(.)/g, "$1$1")
+  }
