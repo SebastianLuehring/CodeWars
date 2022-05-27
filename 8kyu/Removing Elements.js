@@ -14,3 +14,29 @@
 // Solution:
 
 
+function removeEveryOther(arr){
+    return arr.filter(function(d, i){ return (i+1)%2 !== 0; })
+    }
+    
+    
+    function removeEveryOther(arr){
+      return arr.filter(function(elem, index) {
+        return index % 2 === 0;
+      });
+    }
+    
+    
+    function removeEveryOther(arr){
+      var newArr=[];
+    for (var i = 0; i < arr.length; i+=2){
+      newArr.push(arr[i]);
+      }
+    return newArr;
+    }
+    
+    
+    
+    const removeEveryOther = arr => arr.filter((_, i) => !(i % 2));
+    
+    
+    
