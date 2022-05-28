@@ -20,3 +20,14 @@
 // Solution:
 
 
+String.prototype.isUpperCase = function() {
+    return this==this.toUpperCase()
+}
+
+
+String.prototype.isUpperCase = function () {
+  return !/[a-z]/.test(this);
+};
+
+
+
