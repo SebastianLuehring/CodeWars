@@ -14,3 +14,24 @@
 // Solution:
 
 
+function between(a, b) {
+    var numbers = [];
+    for (var i = a; i <= b; i++) {
+      numbers.push(i);
+    }
+    return numbers;
+  }
+  
+  
+  
+  const between = (a, b) => Array.from(new Array(b-a+1), (_, i) => a + i);
+  
+  function between(a, b) {
+    var all = [];
+    for(a;a<=b;a++){
+      all.push(a);
+    }
+    return all;
+  }
+
+  
