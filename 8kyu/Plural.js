@@ -10,3 +10,26 @@
 
 // Solution:
 
+function plural(n) {
+    if(n === 0 || n < 1 || n === Infinity || n > 1){
+      return true
+    }else{
+      return false
+    }
+  }
+  
+  
+  function plural(n) {
+    return n !== 1;
+  }
+  
+  
+  function plural(n) {
+    return n === 1 ? false : true;
+  }
+  
+  
+  
+
+  
+  
