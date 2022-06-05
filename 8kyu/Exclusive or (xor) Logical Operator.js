@@ -18,3 +18,24 @@
 // Solution:
 
 
+
+function xor(a, b) {
+    if(a === true && b === false || a === false && b === true){
+      return true
+    }else{
+      return false
+    }
+  }
+  
+  
+  function xor(a, b) {
+    return a != b;
+  }
+  
+  function xor(a, b) {
+    return (a || b) && !(a && b);
+  }
+
+  
+
+  
