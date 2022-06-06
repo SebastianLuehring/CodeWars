@@ -16,3 +16,28 @@
 
 // Solution:
 
+
+function hello(name) {
+    if (typeof name === "undefined" || name.length === 0) {
+      return `Hello, World!`;
+    } else {
+      return `Hello, ${name[0].toUpperCase()}${name.substring(1,).toLowerCase()}!`;
+    }
+  }
+  
+  
+  const hello = s =>
+    `Hello, ${s ? (s[0].toUpperCase() + s.slice(1).toLowerCase()) : 'World'}!`;
+  
+  
+  
+  function hello(name){
+    if (name){
+      return "Hello, " + name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase() + '!';
+    } else {
+      return "Hello, World!";
+    }
+  }
+
+  
+  
