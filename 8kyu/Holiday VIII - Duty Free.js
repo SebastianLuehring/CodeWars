@@ -13,3 +13,20 @@
 // Solution:
 
 
+function dutyFree(normPrice, discount, hol){
+    return Math.trunc(hol / ((normPrice * discount) / 100))
+  }
+  
+  
+  function dutyFree(normPrice, discount, hol){
+    return(Math.floor(hol / normPrice / discount * 100))
+  }
+  
+  
+  function dutyFree(normPrice, discount, hol){
+    var saving = normPrice * discount / 100;
+    return Math.floor(hol / saving);
+  }
+
+  
+  
