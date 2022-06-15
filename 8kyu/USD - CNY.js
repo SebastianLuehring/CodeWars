@@ -17,3 +17,17 @@
 // Solution:
 
 
+function usdcny(usd) {
+    let conversion = usd * 6.75
+    return `${conversion.toFixed(2)} Chinese Yuan`
+  }
+  
+  
+  usdcny = $ => `${($ * 6.75).toFixed(2)} Chinese Yuan`;
+  
+  
+  function usdcny(usd) {
+    return (usd * 6.75).toFixed(2) + " Chinese Yuan";
+  }
+
+  
