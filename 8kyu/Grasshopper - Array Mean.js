@@ -17,3 +17,21 @@
 // Solution:
 
 
+var findAverage = function (nums) {
+    return nums.reduce((a,b) => a + b, 0) / nums.length
+  }
+  
+  
+  const findAverage = nums => nums.reduce((a, b) => a + b) / nums.length;
+  
+  
+  var findAverage = function (nums) {
+    // Code here
+    var sum = 0;
+    for (num in nums) {
+      sum += nums[num];
+    }
+    return sum / (nums.length);
+  }
+
+  
