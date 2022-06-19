@@ -26,3 +26,33 @@
 
 // Solution:
 
+
+function humanYearsCatYearsDogYears(humanYears) {
+    switch (humanYears) {
+      case 1:
+        return [1, 15, 15]
+      case 2:
+        return [2, 24, 24];
+      default:
+        return [humanYears, (humanYears - 2) * 4 + 24, (humanYears - 2) * 5 + 24 ];
+    }
+    
+  }
+  
+  
+  
+  var humanYearsCatYearsDogYears = function(y) {
+    if (y == 1) return [1, 15, 15]
+    if (y == 2) return [2, 24, 24]
+    return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
+  }
+  
+  
+  
+  const humanYearsCatYearsDogYears = humanYears => [
+    humanYears,
+    ( humanYears - 1 ? 16 : 11 ) + 4 * humanYears,
+    ( humanYears - 1 ? 14 : 10 ) + 5 * humanYears,
+  ];
+
+  
