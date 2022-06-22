@@ -18,3 +18,51 @@
 
 // Solution:
 
+
+
+function calculateTip(amount, rating) {
+    var rate = rating.toLowerCase();
+      
+    if(rate === "excellent"){
+      return Math.ceil(amount*20/100);
+    }else if(rate === "great"){
+      return Math.ceil(amount*15/100);
+    }else if(rate === "good"){
+      return Math.ceil(amount*10/100);
+    }else if(rate === "poor"){
+      return Math.ceil(amount*5/100);
+    }else if(rate === "terrible"){
+      return Math.ceil(amount*0/100);
+    }else{
+    return("Rating not recognised");
+    }
+    }
+    
+    
+    const TIPS = {
+      "terrible": 0.0,
+      "poor": 0.05,
+      "good": 0.1,
+      "great": 0.15,
+      "excellent": 0.2
+    };
+    
+    const calculateTip = (amount, rating) => {
+      rating = rating.toLowerCase();
+      
+      return rating in TIPS ? Math.ceil(TIPS[rating] * amount) : "Rating not recognised";
+    };
+    
+    
+    function calculateTip(amount, rating) {
+      switch(rating.toLowerCase()){
+        case "terrible":return 0;
+        case "poor":return Math.ceil(amount * 0.05);
+        case "good":return Math.ceil(amount * 0.1);
+        case "great":return Math.ceil(amount * 0.15);
+        case "excellent":return Math.ceil(amount * 0.2);
+        default:return "Rating not recognised";
+      }
+    }
+
+    
