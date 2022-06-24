@@ -9,3 +9,16 @@
 
 
 // Solution:
+
+
+function typeOfSum(a, b) {
+    return typeof(a+b)  
+  }
+  
+  const typeOfSum = (a, b) => typeof(a + b);
+  
+  
+
+  
+
+  
