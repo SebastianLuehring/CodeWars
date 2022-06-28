@@ -20,3 +20,12 @@
 // Solution:
 
 
+function strCount(str, letter){  
+    if(str === ""){
+      return 0
+    }else{
+     return str.split(letter).length - 1
+    }
+  }
+
+  
