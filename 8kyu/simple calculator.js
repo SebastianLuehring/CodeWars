@@ -19,3 +19,21 @@
 // Solution:
 
 
+
+
+function calculator(a,b,sign){
+    if(sign === '+' && typeof a === 'number' && typeof b === 'number'){
+      return a + b
+    }else if(sign === "-" && typeof a === 'number' && typeof b === 'number'){
+      return a - b
+    }else if (sign === "*" && typeof a === 'number' && typeof b === 'number'){
+      return a * b
+    }else if (sign === "/" && typeof a === 'number' && typeof b === 'number'){
+      return a / b
+    }else{
+      return 'unknown value'
+    }
+  
+  }
+
+  
