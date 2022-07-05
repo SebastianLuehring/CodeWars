@@ -13,3 +13,12 @@
 
 // Solution:
 
+function mango(quantity, price){
+    return price * (quantity - Math.floor(quantity / 3))
+  }
+  
+  
+  const mango = (quantity, price) => Math.ceil(quantity / 1.5)*price;
+
+  
+  
