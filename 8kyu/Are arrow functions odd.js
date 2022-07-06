@@ -11,3 +11,19 @@
 
 // Solution:
 
+function odds(values){
+    let notEven = values.filter(n => n%2)
+    return notEven
+  }
+  
+  
+  function odds(values){
+    return values.filter( v => v%2 );
+  }
+  
+  var odds = (values) => values.filter(v => v%2);
+  
+  
+
+  
+  
