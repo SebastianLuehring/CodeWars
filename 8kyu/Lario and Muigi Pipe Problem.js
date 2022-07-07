@@ -13,3 +13,35 @@
 
 // Solution:
 
+
+function pipeFix(numbers){
+    let start = numbers[0]
+    let end = numbers.pop()
+    let arr = []
+    while(start <= end){
+     arr.push(start++);
+  }
+    return arr
+    
+  }
+  
+  
+  
+  function pipeFix(numbers){
+    var first = numbers[0];
+    var last = numbers[numbers.length-1];
+    
+    var arr = [];
+    for(var i = first; i <= last; i++) {
+      arr.push(i);
+    }
+    return arr;
+  }
+  
+  
+  let pipeFix = nums => Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]);
+  
+  
+
+  
+  
