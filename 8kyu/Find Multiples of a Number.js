@@ -13,3 +13,32 @@
 // Solution:
 
 
+function findMultiples(integer, limit) {
+    return Array.from({length: parseInt(limit/integer)}, (_,index) => (index + 1) * integer)
+  }
+  
+  function findMultiples(int,limit){
+    let result = []
+    
+    for (let i = int; i<=limit ; i+=int)
+      result.push(i)
+      
+    return result
+  }
+  
+  
+  function findMultiples(int,limit){
+    return Array(Math.floor(limit/int)).fill(1).map((x,i)=>int*(i+1));
+  }
+  
+  
+  function findMultiples(int,limit){
+    let multiples = [];
+    for(let i = int; i <= limit; i += int){ multiples.push(i); }
+    return multiples;
+  }
+  
+  
+  
+  
+  
