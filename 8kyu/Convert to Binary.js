@@ -18,3 +18,17 @@
 // Solution:
 
 
+function toBinary(n){
+    return Number((n).toString(2))
+ }
+ 
+ let toBinary = n => +n.toString(2)
+ 
+ 
+ function toBinary(n){
+   return +n.toString(2);
+ }
+ 
+ 
+ 
+ 
