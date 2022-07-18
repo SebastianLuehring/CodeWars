@@ -16,3 +16,18 @@
 
 
 
+function stringClean(s){
+    return s.replace(/\d/g, '')
+  }
+  
+  function stringClean(s){
+    return s.replace(/[0-9]/g, '');
+  }
+  
+  const stringClean = s => s.replace( /\d/g, "" ) ;
+  
+  
+
+  
+
+  
