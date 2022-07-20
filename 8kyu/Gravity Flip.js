@@ -25,3 +25,39 @@
 
 // Solution:
 
+
+
+const flip=(d, a)=>{
+    if(d === 'R'){
+      return a.sort(function (a,b){
+        return a - b;
+      });
+    }else{
+      return a.sort(function (a,b){
+        return b - a;
+      });
+    }
+  }
+  
+  
+  
+  const flip = (d, a) => a.sort((x, y) => d === 'R' ? x - y : y - x);
+  
+  
+  
+  const flip=(d, a)=>{
+    if(d === 'R') return a.sort((a,b)=>a-b);
+    if(d === 'L') return a.sort((a,b)=>b-a);
+  }
+  
+  
+  const flip = (d, a) => d === 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
+  
+  
+  
+  
+
+  
+
+
+  
