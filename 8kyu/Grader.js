@@ -21,6 +21,8 @@
 // Solution:
 
 
+
+
 function grader(score) {
     if(score > 1 || score < .6){
       return "F"
@@ -34,7 +36,7 @@ function grader(score) {
       return "D"
     }
   }
-  
+
   
   function grader(score) {
     if (score>1||score<0.6) return 'F'
@@ -43,5 +45,6 @@ function grader(score) {
     if (score<0.9) return 'B'
     return 'A'
   }
+
 
   
