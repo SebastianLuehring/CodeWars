@@ -13,3 +13,31 @@
 
 // Solution:
 
+function preFizz(n) {
+    return Array.from({length: n}, (_, i) => i + 1)
+  
+  }
+  
+  
+  function preFizz(n) {
+    var output = [];
+    for (var i=1; i<=n; i++)
+    {
+      output.push(i);
+    }
+    return output;
+  }
+  
+  
+  const preFizz = n => Array.from({length: n}, (_, i) => i + 1)
+  
+  
+  
+  
+  let preFizz = n => [...Array(n)].map((x, i) => i+1);
+  
+  
+  
+
+  
+  
