@@ -14,3 +14,19 @@
 
 // Solution:
 
+function printArray(array){
+    return array.concat()
+  }
+  
+  
+  function printArray(array){
+    return array.join();
+  }
+  
+  
+  const printArray=array=>array.join();
+  
+  
+  
+
+  
