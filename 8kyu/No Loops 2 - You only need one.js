@@ -15,3 +15,24 @@
 // Solution:
 
 
+function check(a,x){
+    if(a.includes(x)){
+      return true
+    }else{
+      return false
+    }
+  };
+  
+  
+  function check(a, x) {
+    return a.includes(x);
+  }
+  
+  
+  const check = (a,x) => a.includes(x);
+  
+  
+  
+  
+  
+  
