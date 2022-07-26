@@ -16,3 +16,19 @@
 
 
  
+function shortenToDate(longDate) {
+    return longDate = longDate.split(',')[0]
+ }
+ 
+ 
+ function shortenToDate(longDate) {
+   // your code here
+   return longDate.slice(0, longDate.indexOf(","));
+ }
+ 
+ 
+ const shortenToDate = longDate => longDate.split(",")[0];
+ 
+ 
+
+ 
