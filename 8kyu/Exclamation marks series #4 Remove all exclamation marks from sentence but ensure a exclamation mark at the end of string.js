@@ -16,3 +16,14 @@
 
 // Solution:
 
+
+
+function remove (string) {
+    return string.replace(/!/g,'') + "!"
+    }
+    
+    const remove = s => s.replace(/!+/g, "")+"!";
+    
+    
+    const remove = s => s.split("!").join("") + "!";
+    
