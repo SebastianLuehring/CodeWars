@@ -12,3 +12,15 @@
 
 // Solution:
 
+function reverse(string){
+    return string.split(' ').reverse().join(' ')
+}
+
+
+reverse = s => s.split(' ').reverse().join(' ')
+
+const reverse = str => str.split(' ').reverse().join(' ');
+
+
+
+
