@@ -21,3 +21,19 @@
 // Solution:
 
 
+
+function lowercaseCount(str){
+    var lowerCase = str.length - str.replace(/[a-z]/g, '').length; 
+    return lowerCase
+}
+
+
+function lowercaseCount(str){
+    return (str.match(/[a-z]/g) || []).length
+}
+
+
+const lowercaseCount = str => (str.match(/[a-z]/g) || []).length;
+
+
+
