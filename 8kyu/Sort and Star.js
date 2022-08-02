@@ -11,3 +11,24 @@
 
 // Solution:
 
+
+function twoSort(s) {
+    let sort = s.sort()
+    let first = sort[0]
+    
+    return first.split('').join('***');
+  }
+  
+  
+  function twoSort(s) {
+    return s.sort()[0].split('').join('***');
+  }
+  
+  
+  const twoSort = s => [...s.sort()[0]].join('***');
+  
+  
+
+  
+
+  
