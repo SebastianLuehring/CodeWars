@@ -18,3 +18,35 @@
 // Solution:
 
 
+function stairsIn20(s){
+    return s.reduce((t, e) => t.concat(e)).reduce((t, e) => t + e) * 20
+}
+
+
+function stairsIn20(s){
+  for (var i = 0, sum = 0; i<s.length ; i++) {
+    for (var j = 0; j<s[i].length; j++) {
+      sum += s[i][j];
+    }
+  }
+  return sum*20;
+}
+
+
+function stairsIn20(stairs){ 
+let total = 0;
+  for(value of stairs){
+    for(num of value){
+      total += num;
+    }
+  }
+return total *= 20
+}
+
+
+
+
+stairsIn20 = s => s.map(x => x.reduce((a,b) => a + b)).reduce((a,b) => a + b) * 20
+
+
+
