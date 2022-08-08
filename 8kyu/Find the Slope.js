@@ -16,3 +16,31 @@
 // Solution:
 
 
+function slope(points){
+    let y = points[3] - points[1]
+    let x = points[2] - points[0]
+    let sum = y/x
+    
+    if(x === 0){
+      return "undefined"
+    }else{
+      return sum.toString()
+    }
+  }
+  
+  
+  function slope([ x1, y1, x2, y2 ]) {
+    let slope = (y2 - y1) / (x2 - x1);
+    return Number.isFinite(slope) ? `${slope}` : 'undefined';
+  }
+  
+  
+  const slope = points => points[2] == points[0] ? "undefined" : (points[3] - points[1]) / (points[2] - points[0]) + "";
+  
+  
+  let slope = ([a, b, c, d]) => a == c ? "undefined" : "" + ((b - d) / (a - c));
+  
+
+  
+
+  
