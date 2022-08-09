@@ -19,3 +19,31 @@
 
 
 
+function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+    return (blueStart - bluePulled) / ((blueStart + redStart) - (bluePulled + redPulled))
+  }
+  
+  
+  function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+    var blueLeft = blueStart - bluePulled;
+    var redLeft = redStart - redPulled;
+    var allLeft = blueLeft + redLeft;
+    
+    return blueLeft/allLeft;
+  }
+  
+  
+  const guessBlue = (blueStart, redStart, bluePulled, redPulled) => {
+    const blue = blueStart - bluePulled;
+    const red = redStart - redPulled;
+    return blue / (blue + red);
+  };
+  
+  
+  guessBlue=(b1,r1,b2,r2)=>(b1-b2)/(b1+r1-b2-r2)
+  
+  
+
+  
+
+  
