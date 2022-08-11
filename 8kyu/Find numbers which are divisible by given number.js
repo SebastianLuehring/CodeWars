@@ -13,3 +13,28 @@
 // Solution:
 
 
+function divisibleBy(numbers, divisor){
+    return numbers.filter(function (a) {
+          return !(a % divisor);
+      });
+  }
+  
+  
+  function divisibleBy(numbers, divisor) {
+    return numbers.filter(n => n % divisor === 0)
+  }
+  
+  
+  const divisibleBy = (numbers, divisor) => numbers.filter(number => !(number % divisor));
+  
+  
+  
+  
+  function divisibleBy(numbers, divisor){
+    return numbers.filter(function(number){
+      return number % divisor === 0;
+    })
+  }
+
+  
+  
