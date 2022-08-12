@@ -16,3 +16,13 @@
 // Solution:
 
 
+function nthEven(n){
+    return (n+n) - 2
+  }
+  
+  const nthEven=n=>n*2-2;
+  
+  
+
+  
+  
