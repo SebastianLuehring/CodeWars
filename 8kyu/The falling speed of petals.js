@@ -17,3 +17,21 @@
 // Solution:
 
 
+function sakuraFall(v) {
+    if(v < 0){
+      return 0
+    }else if(v > 0){
+      return 400/v
+    }else{
+      return 0
+    }
+  }
+  
+  
+  
+  const sakuraFall = (v) => v > 0 ? 400 / v : 0;
+  
+  
+
+  
+  
