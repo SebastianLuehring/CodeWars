@@ -11,3 +11,31 @@
 // Solution:
 
 
+function differenceInAges(ages){
+    return [Math.min(...ages), Math.max(...ages), (Math.max(...ages) - Math.min(...ages))]
+  }
+  
+  
+  
+  function differenceInAges(ages){
+    return [Math.min(...ages), Math.max(...ages), (Math.max(...ages) - Math.min(...ages))]
+  }
+  
+  
+  function differenceInAges(ages){
+    const min = Math.min(...ages);
+    const max = Math.max(...ages);
+    
+    return [min, max, max-min];
+  }
+  
+  
+  const differenceInAges = (ages) => {
+    let youngest = Math.min.apply(null, ages);
+    let oldest = Math.max.apply(null, ages);
+    return [youngest, oldest, oldest - youngest];
+  };
+
+  
+
+  
